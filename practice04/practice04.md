@@ -74,6 +74,18 @@ list(array):
     sort($array)
 
 
+about class:
+
+class_name var = new class()
+
+use the class's member 
+
+$var->var (we don't neet $ for the next var)
+
+use the class's function
+
+$var->func_name()
+
 
 
 
