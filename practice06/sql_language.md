@@ -10,3 +10,9 @@ SELECT * FROM msg;
 DELETE msg WHERE id = 9;
 DELETE msg WHERE id > 1;
 SELECT * FROM msg;
+
+
+SELECT * FROM msg ;
+SELECT * FROM msg ORDER BY intime;
+SELECT * FROM msg ORDER BY intime DESC;
+SELECT * FROM msg LIMIT 1,3;

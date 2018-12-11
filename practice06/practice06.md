@@ -6,12 +6,12 @@ SQL stands for Structured Query Language
 
 
 (using the navicat- free trail)
-1. 
-create the new database - we call it "php"
-2.
-I create a new table - we call it msg 
-3.
-create file 
+    1. 
+        create the new database - we call it "php"
+    2.
+        I create a new table - we call it msg 
+    3.
+        create file 
 
 SQL language:
 
@@ -36,6 +36,27 @@ update: current line.
 delete: delete current line 
     DELETE file_name
     WHERE id = XXXX;
+
+find(*important):
+
+SELECT * FROM table_time; 
+
+    SELECT * FROM table_time WHERE condition; 
+    (like choose something not to print or chose something to print for condition)
+
+
+    SELECT * FROM table_time ORDER BY condition;
+    SELECT * FROM msg ORDER BY intime DESC;
+    (odered by teh condiion);
+
+
+    SELECT * FROM table_time LIMIT a, b 
+    show or find only from a to b 
+    a is not included 
+
+
+
+
 
 
 
