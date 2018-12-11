@@ -1,0 +1,29 @@
+div{
+    color:blue;
+}
+
+
+#a1{
+    /* it is the id */
+    color: blue; 
+}
+
+.a1{
+    /* class chooser */
+    color:green; 
+}
+
+#a1 .aa1{
+    color: yellow;
+    font-size: 26px;
+    height: 200px;
+    background:blueviolet;
+    width: 35px;
+    width:200px;
+    padding: 30%;
+    
+}
+
+.a1 .aa1{
+    color:orange;
+}
