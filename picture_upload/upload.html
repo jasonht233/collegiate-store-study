@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title></title>
+ </head>
+ <body>                   
+  <form action="uploadHandler.php" method="post" enctype="multipart/form-data">
+    Upload Img:<input type="file" name="img"/>      
+   <input type="submit" value="Upload"/>
+  </form>
+ </body>
+</html>
+
+<!-- the "multipart/form-data" is very important [ecasue it specifices which 
+    content-type to use when submitting the form] -->
